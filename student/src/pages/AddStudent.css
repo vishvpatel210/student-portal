@@ -1,0 +1,133 @@
+.add-page .page-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #e2e8f0;
+  margin-bottom: 0.3rem;
+}
+
+.form-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 520px;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: #60a5fa;
+}
+
+.form-input.input-error {
+  border-color: #ef4444;
+}
+
+.error-msg {
+  color: #f87171;
+  font-size: 0.82rem;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #cbd5e1;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.radio-label input[type="radio"] {
+  accent-color: #60a5fa;
+  width: 16px;
+  height: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.85rem;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.success-msg {
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  color: #86efac;
+  margin-top: 1.2rem;
+  font-weight: 500;
+}
+
+.added-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-left: 4px solid #60a5fa;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  max-width: 520px;
+  margin-top: 2rem;
+}
+
+.added-card h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+.added-info p {
+  color: #94a3b8;
+  margin: 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.added-info p span {
+  color: #e2e8f0;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
